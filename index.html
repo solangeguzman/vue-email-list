@@ -9,7 +9,9 @@
     <title>list-email</title>
 </head>
 <body>
+    <h1>LISTA RANDOM E-MAILS</h1>
     <div id="list-random-email">
+        
         <div :class="getEmails">
            <ul v-for="email in emails" >
               <li>{{email}}</li>
