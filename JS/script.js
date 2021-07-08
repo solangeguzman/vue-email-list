@@ -2,7 +2,7 @@ Vue.config.devtools = true;
 
 new Vue(
  {
-    el:'#app',
+    el:'#list-random-email',
     data: {
         emails:[]
     },
