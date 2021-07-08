@@ -10,10 +10,11 @@
 </head>
 <body>
     <div id="list-random-email">
-        <ul v-for="email in emails"  v-if="emails.lenght===10" >
-            <li>{{email}}</li>
-        </ul>
-
+        <div :class="getEmails">
+           <ul v-for="email in emails" >
+              <li>{{email}}</li>
+          </ul>
+        </div>
     </div>
 
     <script src="./JS/script.js"></script>
